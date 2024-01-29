@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&display=swap');
+
+*{
+	/*se usa para quitar margen y padding, y evitar que las cajas crezcan*/
+	/* box-sizing: border-box; */
+	 margin: 0;
+	 padding: 0;
+ }
+ 
+body{
+	font-family: 'Montserrat';
+	color: #0a2ff1;
+}
+#bkfriday{
+	width: 1100px; /*ancho*/
+	margin: auto; /*centras caja*/
+	
+	border: 1px  solid #fff; /*recuadro*/
+	text-align: center;
+	text-transform: uppercase;/*transformar texto en mayucula*/
+}
+#fecha{
+	font-size: 50pt;
+	font-weight: 900; /*tamaño tipografia black, sin px*/
+	display: block; /*que ocupe todo el ancho*/
+	padding: 25px 0px; /*25 margen vertical, 0 horizontal*/
+}
+h1{
+	font-size: 148pt;
+	color: #fff;
+	font-weight: 900;
+	background-color: #000;
+	line-height: 190px;
+}
+#friday{
+	font-size: 163pt;
+	font-weight: 900;
+	color: #000;
+	background-color: #fff;
+	display: block; /*hago que ocupe todo el ancho y así bajo el friday*/
+	padding: 60px 0px;
+}
+h2{
+	font-size: 36pt;
+	font-weight: 900;
+}
+#semi{
+	font-size: 36pt;
+	font-weight: 600;
+}
+#cinq{
+	font-size: 45pt;
+	font-weight: 900;
+	color: #fff;
+	background-color: #000;
+}
+#pie{
+	font-weight: 600;
+	font-size: 44pt;
+	display: block;
+	padding: 16px 0px;
+}
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&display=swap');
+
+body {font-family: 'Montserrat', sans-serif; background-color:#0A2FF1; text-align:center; }
+h1,h2,h3,h4 { font-weight: 700;}
+h2 { font-size:217px;}
+
+
+div { background-color:white;}
+h1 { background-color: black; color: white; font-size: 187px;}
+p { font-size: 59px; color: #0A2FF1;}
+h3 { font-size: 48px; color: #0A2FF1;}
+h4 { font-size: 67px; color:#0A2FF1; }
+span,p { font-weight: 600; }
+strong { font-size: 60px; background-color:black; color:white;}*/

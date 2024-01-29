@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    color: #0a2ff1;
+    background-color: #fff;
+    margin-top: 100px;
+    
+}
+form{
+    width: 510px;
+    height: 370px;
+    /* border: 1px solid #96a7fc; */
+    padding: 5px;
+    margin: auto;
+    border-radius: 5px;
+    
+
+}
+h1{
+    font-weight: 700;
+    font-size: 24px;
+    color: #04146c;
+    text-align: center;
+    padding: 20px;
+}
+input{
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 18.6px;
+    color: #414166;
+    width: 500px;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+    /* display: block;
+    margin: auto; */
+   
+    
+}
+button{
+    font-family: 'Mulish';
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    background-color: #0a2ff1;
+    width: 500px;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    padding-bottom: 20px;
+    /* display: block;
+    margin: auto; */
+}
+p{
+    font-size: 20px;
+    color: #0a2ff1;
+    text-align: center;
+    padding: 10px;
+
+}
+div{/*en luagar de hacer esto usa linea inf en form */
+    border-top: 1px solid #414166;    
+}
+
+
+/*
+
+SOLUCION
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
+
+* { box-sizing: border-box;}
+body, button, input {
+    font-family: 'Mulish', sans-serif;
+   
+}
+
+body{ text-align: center;}
+
+h1 {
+    font-size: 24px;
+    color: #04146c;
+    font-weight: 700;
+}
+
+input, button {
+    border: 1px solid #04146c;
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+    font-size: 19px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+button, input {
+    display: block;
+}
+
+
+
+button {
+
+    color: white;
+    background-color: #0a2ff1;
+    font-weight: 600;
+}
+
+form {
+    border-bottom: 1px solid #04146c; (LE POME LA LINE A BAJO)
+    padding-bottom: 10px;
+    width: 500px;
+    margin: auto;
+    
+}
+
+p {
+    font-weight: 400;
+    color: #0a2ff1;
+    font-size: 20px;
+}
+
+*/

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+	color: #0a2ff1;
+	text-align: left;
+	width: 730px;
+	border: 1px solid #8a9af1;/*para guiarme*/
+	height: 1000px;
+	margin-left: 10px;
+
+}
+/*div contienen encabezado line-height*/
+/*h1 text bold 78px*/
+h1 {
+	font-weight: 700;
+	font-size: 78px;
+}
+/*span spcial fondo  #3ffff3*/
+#social {
+		background-color: #3ffff3;
+	}
+/*parrafo 30px*/
+h2 {
+	font-size: 30px;
+	padding: 30px 0;
+	text-align: left;
+}
+img {
+	width: 400px;
+	height: auto;
+	background-image: url(../imagenes/fondo.JPG); 
+	/*background-color: position 0 bottom; si ancho img 300px tengo que poner esto*/
+}
+/*div contendor imagen, mi solucion con div */
+/*---------
+
+#celu {
+	background-image: url(../imagenes/fondo.JPG); pongo img fondo
+	width: 368px;
+	height: 545px;
+	background-color: #8a9af1;
+	vertical-align: bottom;
+	border: 1px solid #8a9af1;
+}
+
+imagen celu
+	#icel {
+		width: 365px;
+	}
+	-------------------------*/
+
+/* SOLUCION MINITA
+En lugar de P pone H2 y luego en CSS pone
+
+img {
+	width: 300px;
+	height: auto;
+	margin-left: 70px; 
+	background-image: url(../imagenes/fondo.JPG);
+	background-color:position 0 bottom;
+}
+
+
+/* SOLUCION
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+
+body { font-family: 'Poppins', sans-serif;  color: #0a2ff1;}
+h1 { font-size: 78px; font-weight: 700; }
+img { width: 400px; background-image: url(../imagenes/fondo.JPG);}
+div { width: 100%;}
+span { background-color: #3ffff3;}
+
+
+p { font-weight: 500; font-size: 30px;}
+*/	

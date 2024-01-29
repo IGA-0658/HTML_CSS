@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&display=swap');
+
+*{
+	/*se usa para quitar margen y padding, y evitar que las cajas crezcan*/
+	/* box-sizing: border-box; */
+	 margin: 0;
+	 padding: 0;
+ }
+ 
+body{
+	font-family: 'Montserrat';
+}
+#bkfriday{
+	width: 1100px; /*ancho*/
+	margin: auto; /*centras caja*/
+	
+	border: 1px  solid #000; /*recuadro*/
+	text-align: center;
+	text-transform: uppercase;/*transformar texto en mayucula*/
+}
+#fecha{
+	font-size: 50pt;
+	color: #fff;
+	font-weight: 900; /*tamaño tipografia black, sin px*/
+	background-color: #000;
+	display: block; /*que ocupe todo el ancho*/
+	padding: 25px 0px; /*25 margen vertical, 0 horizontal*/
+}
+h1{
+	font-size: 148pt;
+	color: #000;
+	font-weight: 900;
+	background-color: #fff;
+	line-height: 190px;
+}
+#friday{
+	font-size: 163pt;
+	color: #fff;
+	background-color: #000;
+	display: block; /*hago que ocupe todo el ancho y así bajo el friday*/
+	padding: 60px 0px;
+}
+h2{
+	font-size: 45pt;
+}
+#semi{
+	font-size: 36pt;
+	font-weight: 600;
+}
+#pie{
+	font-weight: 600;
+	font-size: 44pt;
+	color: #fff;
+	background-color: #000;
+	display: block;
+	padding: 16px 0px;
+}
+
+
+/*solucion del curso como el de mendoza todo el ancho, el profe le hizo una caja*/
+/*
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&display=swap');
+
+body {font-family: 'Montserrat', sans-serif; background-color:black; text-align:center; }
+h1,h2,h3,h4 { font-weight: 700;}
+h2 { font-size:217px;}
+h4 { font-size: 67px;}
+h1 { font-size:187px;}
+
+h1,h3 { background-color: white;}
+h2, p, h4{ color:white;}
+h3 { font-size: 48px;}
+
+span,p { font-weight: 600; }
+p { font-size: 59px;}
+strong { font-size: 60px;}*/
